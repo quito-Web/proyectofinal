@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import  messagebox
 import sqlite3
 
-
+# German Stanely Campos Sosa: trabaje la creacion y la conexion de base de datos 
 def inicializar_db():
     conn = sqlite3.connect("usuarios.db")
     cursor = conn.cursor()
