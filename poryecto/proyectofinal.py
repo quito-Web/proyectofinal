@@ -33,7 +33,7 @@ def inicializar_db():
     conn.commit()
     conn.close()
 
-
+# cg22036 ederson wigberto chevez galindo mi aportacion fue realizar las clases y herencias
 # Clase padre
 class Transporte:
     def __init__(self, nombre):
